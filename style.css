@@ -1,0 +1,85 @@
+
+* { 
+    font: bold 18px "century gothic"; margin: 0;
+}
+
+html { background: rgb(225,225,225); }
+
+button { cursor: pointer; }
+
+.w-100 { width: 100%; }
+
+h1.title { 
+    width: 100%; padding: 20px 0 10px; text-align: center; font-size: 36px;
+    background: rgb(40,130,200); color: white; 
+}
+h6.userinfo { 
+    font-size: 18px; text-align: right; padding: 0 25px 10px 0;
+    background: rgb(40,130,200); color: white;
+}
+
+h1.section-title { 
+    width: 100%; padding: 20px 0 20px; text-align: center; font-size: 24px;
+    background: rgb(60,60,60); color: white;  
+}
+
+
+
+table.nav {
+    width: 100%;
+    background: rgb(240,170,10);
+    border-collapse: collapse;
+}
+table.nav tr th { 
+    background: rgb(60,60,60); color: white; transition: 0.25s;
+    padding: 5px 0 5px; vertical-align: middle; text-align: center; border: 0px none;}
+table.nav tr th:hover { background: rgb(60, 95, 140); }
+table.nav tr th.logout:hover { background: rgb(205, 70, 75); }
+table.nav tr th a { 
+    text-decoration: none; color: white; font-size: 20px;
+    display: block; transition: 0.25s; }
+table.nav tr th.active { background: rgb(40,130,200); }
+table.nav tr th.active a:hover { color: rgb(220,220,240); }
+
+
+td {background: white; }
+
+
+table.content tr td.title { background: rgb(205,200,240); }
+table.content {
+    margin: 50px auto; border-collapse: collapse;
+}
+table.content tr td { padding: 5px; }
+table.content tr td.numeric-cell { text-align: right; }
+
+table.content tr td.btn-cell { padding: 0px; }
+table.content tr td form button { 
+    background: rgb(60,60,60); color: white; transition: 0.25s; 
+    border: 0px none; margin: 2px 0; padding: 2.5px 10px; width: 100%;}
+table.content tr td form button:hover { cursor: pointer;  background: rgb(100,100,100); }
+.btn { 
+    display: block; text-align: center; transition: 0.25s; padding: 12px 0;
+    background: rgb(60,60,60); color: white; text-decoration: none;}
+.btn:hover { background: rgb(40,130,200); }
+
+
+.paragraph { margin: 10px 0 20px 25px; }
+
+
+.message-title, .message-content { text-align: center; }
+.message-title { margin: 100px 0 0; font-size: 32px; }
+.message-content { margin: 25px 0; font-size: 24px;  font-weight: 500;}
+.message-content span.bold{ font-size: 24px; font-weight: bold; }
+
+div.btn-confirm-container {
+    width: 20%;
+    margin: auto;
+}
+.btn-confirm-yes, .btn-confirm-no { color: white; padding: 15px 25px; margin: 50px 0 0 0; transition: 0.25s;}
+.btn-confirm-yes { float: left; border: 0px none; background: rgb(205,70,75); }
+.btn-confirm-no { float: right; background: rgb(60,60,60); }
+.btn-confirm-yes:hover { background: rgb(180,45,50); }
+.btn-confirm-no:hover { background: rgb(95,95,95); }
+
+
+
